@@ -1,0 +1,263 @@
+
+body{
+  font-family: 'Montserrat';
+}
+
+.container{
+  padding:3% 14% 2%;
+}
+.container-fluid{
+  padding:3% 14% 5%;
+}
+.row{
+  margin-bottom: 0;
+}
+
+.navbar-brand{
+  width: 10%;
+  margin: 0 0 0 10%;
+}
+
+
+
+/* Navigation Bar  */
+
+.titleSection1{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #fff;
+  margin-top: 3rem;
+
+}
+.titleSection2{
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+#title{
+  background-color: #3C486B;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-nav a {
+  color: #fff;
+}
+
+.navbar-nav a:hover {
+  color: #EB4D26;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+.button{
+  background: #EB4D26;
+  border: 1px solid #EB4D26;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+ /* Title Image */
+
+ .title-image{
+   width: 20%;
+   transform: rotate(5deg);
+   position: absolute;
+   margin-top: -3rem;
+   right: 25%;
+ }
+
+ .horizontal-line{
+  margin-top: 50px;
+}
+
+
+ #cta{
+  background-color: #3C486B;
+  text-align: center;
+  padding: 5% 15%;
+}
+#cta i{
+  margin: 2% 1%;
+  font-size: 2rem;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+#cta i:hover {
+  color: #EB4D26;
+  transform: scale(1.2);
+}
+
+.lastTitleSection{
+  font-family: 'Montserrat';
+  width: 70%;
+  margin: auto;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+}
+
+#footer{
+  text-align: center;
+  margin: 3% 3%;
+
+}
+
+#text-map{
+  text-align: center;
+  margin: 5% auto 5% auto;
+  font-family: 'Ubuntu';
+  width: 70%;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #3C486B;
+}
+
+#features{
+  padding: 7% 0;
+  background-color: #fff;
+  position: relative;
+}
+
+.image-entreprise{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 10% 0;
+  transition: transform 0.3s ease-in-out; /* Ajoutez une transition douce */
+  opacity: 1; /* Rend l'overlay opaque au survol */
+}
+
+.image-entreprise:hover {
+  transform: scale(1.1); /* Agrandit l'image de 10% */
+}
+
+.Title-entreprise{
+  font-family: 'Montserrat';
+  text-align: center;
+  width: 70%;
+  margin: 0% auto 5% auto;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (max-width:992px)  {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin-top: 3rem;
+    width: 40%;
+
+  }
+  .titleSection1{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+  }
+  #text-map{
+    text-align: center;
+    margin: 5% auto 5% auto;
+    font-family: 'Ubuntu';
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3C486B;
+  }
+
+  .map_image{
+    width: 90%;
+    margin:20% auto 20% auto;
+  }
+
+  .Title-entreprise{
+    font-size: 2rem;
+
+  }
+  .image-entreprise{
+    width: 60%;
+    height: auto;
+    margin: 10% auto;
+  }
+
+  .lastTitleSection{
+    font-size: 1.5rem;
+
+  }
+  #cta i{
+    font-size: 1rem;
+
+  }
+  .navbar-brand{
+    width: 30%;
+    margin: 0;
+  }
+
+
+}

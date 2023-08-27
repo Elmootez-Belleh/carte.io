@@ -1,0 +1,27 @@
+.map_image{
+  width: 40%;
+  margin:5% auto 5% auto;
+}
+
+.map_image path{
+  fill: #3C486B;
+  stroke: #FFF;
+  stroke-width: 1px;
+}
+
+.map_image path:hover{
+  fill: #EB4D26;
+}
+
+.map {
+  margin-bottom: 5%;
+}
+
+.tooltipContent{
+  text-align: left;
+  font-size: .8em;
+}
+.tooltipContent h5{
+  font-size: 1.2em;
+  margin-bottom: 2px;
+}
